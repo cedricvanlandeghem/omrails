@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
 gem 'jquery-rails'
+gem 'devise'
+gem 'simple_form'
 
 # use pg online and sqlite3 in local
 group :production do
