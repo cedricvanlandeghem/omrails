@@ -5,6 +5,7 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
 gem "paperclip", "~> 3.0"
+gem "aws-sdk"
 
 # use pg online and sqlite3 in local
 group :production do
