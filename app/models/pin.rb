@@ -1,6 +1,8 @@
 class Pin < ActiveRecord::Base
   attr_accessible :description, :image
 
+  attr_accessor :image_file_name
+
   validates :description, presence: true
   validates :user_id, presence: true
   validates_attachment :image, presence: true,
